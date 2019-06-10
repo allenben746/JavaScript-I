@@ -37,3 +37,7 @@ console.log(subtract(10,5));
 // console.log(triple);
 
 exampleArray = [1,2,3,4];
+
+
+const newArray = exampleArray.map(x => x*3);
+console.log(newArray);
